@@ -1,0 +1,32 @@
+* {
+  font-family: "Segoe UI";
+  font-weight: 200;
+}
+body {
+  background: rgb(19, 18, 18);
+}
+h1 {
+  text-align: center;
+  margin-top: 40vh;
+  color: #fff;
+}
+div {
+  display: flex;
+  justify-content: center;
+}
+button {
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  font-size: 1em;
+}
+button:hover {
+  background: rgb(45, 50, 102);
+  color: rgb(255, 255, 255);
+}
