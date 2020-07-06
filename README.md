@@ -1,5 +1,5 @@
 # Dark-Mode-For-Web
-This example shows how you can achieve dark mode for your website by changing the entire style sheet.
+This example shows how you can achieve dark mode for your website by changing the entire style sheet on a click.
 
 Click the link for live demo.
 
