@@ -1,9 +1,17 @@
 * {
   font-family: "Segoe UI";
   font-weight: 200;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 body {
   background: rgb(19, 18, 18);
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
 }
 h1 {
   text-align: center;
@@ -29,4 +37,12 @@ button {
 button:hover {
   background: rgb(45, 50, 102);
   color: rgb(255, 255, 255);
+}
+@media (max-width: 640px) {
+  h1 {
+    font-size: 1.6em;
+  }
+  button {
+    margin-top: 5%;
+  }
 }
