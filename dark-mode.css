@@ -33,6 +33,7 @@ button {
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
   font-size: 1em;
+  margin-top: 2%;
 }
 button:hover {
   background: rgb(45, 50, 102);
