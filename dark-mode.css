@@ -6,45 +6,37 @@
   margin: 0;
 }
 body {
-  background: rgb(19, 18, 18);
+  background: rgb(29, 29, 29);
   transition: 1s;
   -webkit-transition: 1s;
   -moz-transition: 1s;
   -ms-transition: 1s;
   -o-transition: 1s;
 }
-h1 {
-  text-align: center;
-  margin-top: 40vh;
-  color: #fff;
-}
-div {
+.wrapper {
+  height: 100vh;
+  width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
+h1 {
+  color: #fff;
+  text-align: center;
+}
+
 button {
-  padding: 10px;
+  padding: 8px;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   border: none;
   border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
-  font-size: 1em;
   margin-top: 1%;
+  font-size: 1em;
   outline: none;
 }
 button:hover {
   background: rgb(45, 50, 102);
   color: rgb(255, 255, 255);
-}
-@media (max-width: 640px) {
-  h1 {
-    font-size: 1.6em;
-  }
-  button {
-    margin-top: 5%;
-  }
 }
