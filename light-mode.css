@@ -25,13 +25,14 @@ h1 {
   align-items: center;
 }
 button {
-  padding: 8px;
+  padding: 10px;
   background-color: #000;
   color: #fff;
   border: none;
   border-radius: 3px;
   font-size: 1em;
   margin-top: 1%;
+  width: 100px;
   outline: none;
 }
 button:hover {
